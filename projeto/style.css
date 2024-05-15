@@ -1,48 +1,140 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0px;
     padding:0px;
+    font-family: "Roboto", sans-serif;
 }
 
-body{
-    max-width: 1300px;
-   margin: auto;
-}
 .topo{
     color: white;
     display: flex;
     background-color: rgba(0, 0, 0, 0.911);
-    padding: 3px;
-    padding-left: 4px;
+    padding: 5px;
+    justify-content: center;
+    font-family: "Barlow", sans-serif;
+}
+.tel{
+    margin-right: 120px;
+}
+.email{
+    margin-right: 120px;
+    font-size: 17px;
+}
+.tel-icon{
+    color: white;
+    width: 18px;
+    padding-top:3px;
+    margin-right: 10px;
+}
+.email-icon{
+padding-top:4px;
+margin-right: 7px;
+}
+.local-icon{
+    width:15px;
+    padding-top: 1px;
+    margin-right: 6px;
 }
 
-.email{
-    margin-left: 40px;
-}
+
+
+
+
+
 
 .menu>ul{
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
     padding:10px;
     margin-top:12px;
-    
+    justify-content: center;
 }
 
 .menu>ul>li{
-    margin-left: 15px;
-    font-size: 17px;
-    font-weight: bold;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight:500;
+    font-family: "Roboto", sans-serif;
 }
 
 .menu>ul>li>a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: 0.2s;
 }
 
-main{
-    background-image: url(../fundomenor.jpg);
+.logo{
+   display: flex;
+    justify-content: center;
+}
+.logo>img{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.menu>ul>li>a:hover{
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+.fundo{
+    background-image: url(../background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 800px;
-    
+    margin-top:20px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 3px;
+}
+
+.paragrafo{
+   color: white;
+   max-width: 1200px;
+   font-size: 19px;
+   text-align: center;
+   margin-bottom: 120px;
+}
+
+.fundo>h2{
+    color: white;
+    text-align: center;
+}
+
+
+.areas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    margin-top: 80px;
+    padding: 0px 10px ;
+}
+
+.areas>li{
+    width:200px;
+    height: 300px;
+    border: 2px solid black;
 }
