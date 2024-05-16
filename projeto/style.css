@@ -101,7 +101,6 @@ margin-right: 7px;
     background-image: url(../background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
     padding-top: 20px;
 }
 
@@ -130,7 +129,6 @@ margin-right: 7px;
     text-align: center;
 }
 
-
 .areas{
     display: flex;
     justify-content: space-around;
@@ -139,6 +137,8 @@ margin-right: 7px;
     list-style-type: none;
     margin-top: 80px;
     padding: 0px 10px ;
+    padding-bottom: 90px;
+
 }
 
 .areas>li{
@@ -146,10 +146,19 @@ margin-right: 7px;
     height: 300px;
     border: 2px solid black;
 }
+
+
+
+
+
+
+
+
+
 .equipe{
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
-    box-shadow: inset 0px 0px 7px 5px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.74);
 }
 .equipe>h2{
     padding-top: 80px;
@@ -162,10 +171,44 @@ margin-right: 7px;
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 150px;
 }
 
 .lista>li{
     width: 200px;
-    height: 300px;
+    height: 350px;
     border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align:center;
+    padding: 150px 0px 150px 0px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+
+
+.gmaps{
+display: flex;
+}
+
+.mapa{
+width: 450px;
+height: 350px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
 }
