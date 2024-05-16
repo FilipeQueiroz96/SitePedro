@@ -9,6 +9,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+header {
+    background-image: url(../fundomarmore2.jpg);
+    background-size: cover;
+    background-position: top;
+    box-shadow: inset 0px 0px 6px 4px rgba(0, 0, 0, 0.651);
+}
 .topo{
     color: white;
     display: flex;
@@ -39,7 +45,9 @@ margin-right: 7px;
     padding-top: 1px;
     margin-right: 6px;
 }
-
+.menu{
+    padding-bottom: 20px;
+}
 
 
 
@@ -94,7 +102,7 @@ margin-right: 7px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
-    margin-top:20px;
+    padding-top: 20px;
 }
 
 .sobre{
@@ -106,13 +114,13 @@ margin-right: 7px;
     font-size: 30px;
     color: white;
     padding-top: 50px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .paragrafo{
    color: white;
    max-width: 1200px;
-   font-size: 19px;
+   font-size: 20px;
    text-align: center;
    margin-bottom: 120px;
 }
@@ -137,4 +145,27 @@ margin-right: 7px;
     width:200px;
     height: 300px;
     border: 2px solid black;
+}
+.equipe{
+    background-image: url(../fundomarmore2.jpg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 7px 5px rgba(0, 0, 0, 0.74);
+}
+.equipe>h2{
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom:55px;
+
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista>li{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
 }
