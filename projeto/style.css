@@ -101,7 +101,7 @@ margin-right: 7px;
     background-image: url(../background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .sobre{
@@ -121,7 +121,7 @@ margin-right: 7px;
    max-width: 1200px;
    font-size: 20px;
    text-align: center;
-   margin-bottom: 120px;
+   margin-bottom: 170px;
 }
 
 .fundo>h2{
@@ -137,15 +137,68 @@ margin-right: 7px;
     list-style-type: none;
     margin-top: 80px;
     padding: 0px 10px ;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 
 }
 
-.areas>li{
-    width:200px;
-    height: 300px;
-    border: 2px solid black;
+.areas>div{
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding-top: 10px;
 }
+.empresarial{
+    width: 270px;
+    height: 450px;
+}
+
+.consumidor{
+    width: 270px;
+    height: 450px;
+}
+
+.previdenciario{
+    width: 270px;
+    height: 450px;
+}
+
+.civel{
+    width: 270px;
+    height: 450px;
+}
+
+.familia{
+    width: 270px;
+    height: 450px;
+}
+
+
+.empresarial>img{
+    width: 220px;
+}
+
+.consumidor>img{
+    width: 220px;
+}
+
+.previdenciario>img{
+    width: 220px;
+}
+
+.civel>img{
+    width: 180px;
+}
+
+.familia>img{
+    width: 220px;
+}
+
+
 
 
 
@@ -161,23 +214,26 @@ margin-right: 7px;
     box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.74);
 }
 .equipe>h2{
-    padding-top: 80px;
+    padding-top: 130px;
     text-align: center;
-    margin-bottom:55px;
+    margin-bottom: 65px;
 
 }
 
-.lista{
+.lista-equipe{
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding-bottom: 150px;
 }
 
-.lista>li{
-    width: 200px;
-    height: 350px;
+.lista-equipe>div{
+    width: 280px;
     border: 1px solid black;
+}
+
+.lista-equipe>div>img{
+    width: 250px;
 }
 
 
