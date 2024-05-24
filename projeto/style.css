@@ -8,7 +8,6 @@
     padding:0px;
     font-family: "Roboto", sans-serif;
 }
-
 header {
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
@@ -125,32 +124,37 @@ margin-right: 7px;
 }
 
 .fundo>h2{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 80px;
 }
+
+
+
 
 .areas{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    color: white;
+    justify-content: center;
+    color: rgb(255, 255, 255);
     list-style-type: none;
     margin-top: 80px;
-    padding: 0px 10px ;
-    padding-bottom: 120px;
-
+    padding: 0px 15px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 50px;
 }
 
 .areas>div{
-    background-color: rgba(255, 255, 255, 0.301);
+    background-color: rgba(0, 0, 0, 0.301);
     border-radius: 15px;
-    box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.281);
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.281);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 15px;
     padding-top: 10px;
+    gap: 15px;
 }
 .empresarial{
     width: 270px;
@@ -165,6 +169,31 @@ margin-right: 7px;
 .previdenciario{
     width: 270px;
     height: 450px;
+}
+
+.areas-baixo{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 120px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.areas-baixo>div{
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding-top: 10px;
 }
 
 .civel{
@@ -220,19 +249,23 @@ margin-right: 7px;
 
 }
 
-.lista-equipe{
+.lista-equipe-cima, .lista-equipe-baixo{
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding-bottom: 150px;
 }
 
-.lista-equipe>div{
+.lista-equipe-cima>div, .lista-equipe-baixo>div{
     width: 280px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
 }
 
-.lista-equipe>div>img{
+.lista-equipe-cima>div>img, .lista-equipe-baixo>div>img{
     width: 250px;
 }
 
