@@ -129,6 +129,11 @@ margin-right: 7px;
     margin-bottom: 80px;
 }
 
+.nome{
+    margin-top:-29px;
+}
+
+
 
 
 
@@ -220,15 +225,12 @@ margin-right: 7px;
 }
 
 .civel>img{
-    width: 180px;
+    width: 220px;
 }
 
 .familia>img{
     width: 220px;
 }
-
-
-
 
 
 
@@ -252,8 +254,9 @@ margin-right: 7px;
 .lista-equipe-cima, .lista-equipe-baixo{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 150px;
+    justify-content: center; 
+    padding-bottom: 100px;
+    gap: 35px;
 }
 
 .lista-equipe-cima>div, .lista-equipe-baixo>div{
@@ -269,8 +272,21 @@ margin-right: 7px;
     width: 250px;
 }
 
+span{
+    font-weight: bold;
+}
 
+.lista-equipe-cima>div>li>p{
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding-top: 10px;
+}
 
+.lista-equipe-baixo>div>li>p{
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding-top: 10px;
+}
 
 
 
