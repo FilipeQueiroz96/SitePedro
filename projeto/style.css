@@ -123,20 +123,28 @@ margin-right: 7px;
    margin-bottom: 170px;
 }
 
-.fundo>h2{
-    color: rgb(255, 255, 255);
+
+
+
+
+
+
+
+
+.secao-areas>h2{
+    margin-top: 30px;
     text-align: center;
-    margin-bottom: 80px;
+    font-weight: normal;
 }
-
-.nome{
-    margin-top:-29px;
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 3px;
 }
-
-
-
-
-
+.minilogo{
+    width: 320px;
+}
 .areas{
     display: flex;
     align-items: center;
@@ -242,12 +250,13 @@ margin-right: 7px;
 .equipe{
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
-    box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.74);
+    background-position: center;
 }
 .equipe>h2{
     padding-top: 130px;
     text-align: center;
     margin-bottom: 65px;
+    font-weight: normal;
 
 }
 
