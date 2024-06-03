@@ -129,18 +129,23 @@ margin-right: 7px;
 
 
 
-
+.fundomarmore{
+    background-image: url(../fundomarmore2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .secao-areas>h2{
-    margin-top: 30px;
+    padding-top: 50px;
     text-align: center;
     font-weight: normal;
+    font-size: 28px;
 }
-h3{
+.minilogo-areas{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 3px;
+    margin-bottom: 40px;
+    margin-top: 2px;
 }
 .minilogo{
     width: 320px;
@@ -149,7 +154,6 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
     list-style-type: none;
     margin-top: 80px;
     padding: 0px 15px;
@@ -158,10 +162,15 @@ h3{
     gap: 50px;
 }
 
+.areas>div>li{
+    font-size: 19px;
+}
+
+.areas-baixo>div>li{
+    font-size: 19px;
+}
 .areas>div{
-    background-color: rgba(0, 0, 0, 0.301);
-    border-radius: 15px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.822);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,7 +196,6 @@ h3{
 .areas-baixo{
     display: flex;
     align-items: center;
-    color: white;
     list-style-type: none;
     justify-content: center;
     padding-bottom: 120px;
@@ -198,9 +206,7 @@ h3{
 }
 
 .areas-baixo>div{
-    background-color: rgba(0, 0, 0, 0.301);
-    border-radius: 15px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.822);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,17 +253,17 @@ h3{
 
 
 
-.equipe{
-    background-image: url(../fundomarmore2.jpg);
-    background-size: cover;
-    background-position: center;
-}
 .equipe>h2{
-    padding-top: 130px;
+    padding-top: 30px;
     text-align: center;
-    margin-bottom: 65px;
     font-weight: normal;
+    font-size: 28px;
+}
 
+.minilogo-equipe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .lista-equipe-cima, .lista-equipe-baixo{
@@ -300,21 +306,66 @@ span{
 
 
 
-
-
-
-
 footer{
-    text-align:center;
-    padding: 150px 0px 150px 0px;
-    font-size: 25px;
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgb(29, 28, 28);
+}
+
+footer>h2{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+}
+
+.formulario{
+    padding-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width:400px;
+    margin: auto;
+    gap: 10px;
+    background-color: rgb(5, 5, 5);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form>input, textarea{
+    color: rgb(0, 0, 0);
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(255, 255, 255);
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
+}
+form>input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+textarea::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+textarea{
+    resize: none;
+    padding-bottom: 35px;
+}
+.enviar{
+    transition-duration: 0.3s;
+}
+.enviar:hover{
+    cursor: pointer;
+    background-color: rgb(131, 131, 131);
 }
 
 
 
 .gmaps{
 display: flex;
+margin-top: 40px;
 }
 
 .mapa{
