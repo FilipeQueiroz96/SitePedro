@@ -132,28 +132,29 @@ margin-right: 7px;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
 
 .sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 .titulo{
     font-size: 30px;
     color: white;
     padding-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .paragrafo{
    color: white;
-   max-width: 1200px;
+   max-width: 1000px;
    font-size: 20px;
    text-align: center;
-   margin-bottom: 170px;
+   padding-bottom: 90px;
+   margin: auto;
+   
 }
 
 
@@ -292,6 +293,7 @@ margin-right: 7px;
     font-size: 30px;
     background-color: rgb(66, 66, 64);
     color: white;
+    margin-bottom: -1px;
 }
 
 .minilogo-equipe{
@@ -455,4 +457,87 @@ iframe{
     font-size: 25px;
     padding-left: 100px;
     padding: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+   
+.topo{
+    display: none;
+}
+
+.menu>ul{
+    display: none;
+}
+
+
+.paragrafo{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 17px;
+ }
+
+
+ .areas{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ .areas-baixo{
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .lista-equipe-cima{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+ }
+
+ .lista-equipe-baixo{
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .faleconosco{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:85vw;
+    gap: 10px;
+    background-color: rgb(5, 5, 5);
+    padding: 20px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+.gmaps{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px ;
+    }
+    
+    .mapa{
+    width: 90vw;
+    height: 300px;
+    }
+    
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .gmaps>h3{
+        padding: 10px;
+    }
+
+
+
 }
