@@ -289,13 +289,17 @@ margin-right: 7px;
     padding-top: 30px;
     text-align: center;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 30px;
+    background-color: rgb(66, 66, 64);
+    color: white;
 }
 
 .minilogo-equipe{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    background-color: rgb(66, 66, 64);
+    padding-bottom: 10px;
 }
 
 .lista-equipe-cima, .lista-equipe-baixo{
@@ -304,6 +308,7 @@ margin-right: 7px;
     justify-content: center; 
     padding-bottom: 100px;
     gap: 35px;
+    padding-top: 30px;
 }
 
 .lista-equipe-cima>div, .lista-equipe-baixo>div{
@@ -431,10 +436,12 @@ footer>ul{
 display: flex;
 margin-top: 40px;
 flex-direction: column;
+align-items: center;
+padding-bottom: 10px ;
 }
 
 .mapa{
-width: 450px;
+width: 500px;
 height: 350px;
 }
 
@@ -447,4 +454,5 @@ iframe{
     color: white;
     font-size: 25px;
     padding-left: 100px;
+    padding: 10px;
 }
