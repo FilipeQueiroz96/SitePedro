@@ -160,14 +160,13 @@ margin-right: 7px;
 
 
 
-
-
-.fundomarmore{
+.secao-areas{
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-}
 
+}
 .secao-areas>h2{
     padding-top: 50px;
     text-align: center;
@@ -283,7 +282,12 @@ margin-right: 7px;
 
 
 
-
+.equipe{
+    background-image: url(../fundomarmore2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 .equipe>h2{
@@ -470,13 +474,16 @@ iframe{
     display: none;
 }
 
+.fundo{
+    background-position: top;
+}
 
 .paragrafo{
     padding-left: 3%;
     padding-right: 3%;
     font-size: 17px;
+    padding-bottom: 25px;
  }
-
 
  .areas{
     flex-direction: row;
@@ -504,16 +511,18 @@ iframe{
     padding-top: 30px;
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
 }
 
 form{
     display: flex;
-    flex-direction: column;
-    width:85vw;
+    flex-direction: column;;
+    width:82vw;
     gap: 10px;
     background-color: rgb(5, 5, 5);
     padding: 20px 30px 30px 30px;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .gmaps{
@@ -525,7 +534,7 @@ form{
     }
     
     .mapa{
-    width: 90vw;
+    width: 89vw;
     height: 300px;
     }
     
