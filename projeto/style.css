@@ -8,6 +8,9 @@
     padding:0px;
     font-family: "Roboto", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header {
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
@@ -443,7 +446,7 @@ display: flex;
 margin-top: 40px;
 flex-direction: column;
 align-items: center;
-padding-bottom: 10px ;
+padding-bottom: 50px;
 }
 
 .mapa{
@@ -530,7 +533,6 @@ form{
     margin-top: 40px;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px ;
     }
     
     .mapa{
