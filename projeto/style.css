@@ -14,6 +14,7 @@ html{
 .whatsapp-mobile{
     display: none;
 }
+
 header {
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
@@ -28,12 +29,24 @@ header {
     justify-content: center;
     font-family: "Barlow", sans-serif;
 }
+.topo>a{
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 3px;
+    justify-content: center;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+}
 .tel{
     margin-right: 120px;
 }
 .email{
     margin-right: 120px;
     font-size: 17px;
+}
+.local{
+    padding-top: 2px;
 }
 .tel-icon{
     color: white;
@@ -47,7 +60,7 @@ margin-right: 7px;
 }
 .local-icon{
     width:15px;
-    padding-top: 1px;
+    padding-top: 2px;
     margin-right: 6px;
 }
 .whatsapp{
@@ -471,11 +484,26 @@ iframe{
 
 
 @media screen and (max-width: 1000px){
-   
 .topo{
-    display: none;
-}
+        color: white;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.911);
+        padding: 5px;
+        justify-content: center;
+        font-family: "Barlow", sans-serif;
+    }
 
+.email{
+    display: none;
+    }
+
+.email-icon{
+        display: none;
+    }
+
+.tel{
+        margin-right: 50px;
+    }
 .menu>ul{
     display: none;
 }
