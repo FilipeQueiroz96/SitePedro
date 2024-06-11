@@ -139,6 +139,37 @@ margin-right: 7px;
 }
 
 
+.menu-mobile{
+    background-color: rgba(0, 0, 0, 0.377);
+    justify-content: right;
+    position: fixed;
+    top: 42px;
+    right: 0px;
+    z-index: 999;
+    width: 60%;
+    height:50%;
+}
+.x{
+    color: white;
+    padding: 5px;
+}
+.menu-mobile>ul{
+    list-style-type: none;
+    text-align: right;
+    padding-right: 7px;
+}
+.menu-mobile>ul>li{
+    margin-bottom: 15px;
+}
+.menu-mobile>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-mobile.abrir-menu{
+    width: 60%;
+}
+
 
 
 
@@ -506,6 +537,9 @@ iframe{
     }
 .menu>ul{
     display: none;
+}
+.menu-mobile{
+    display: block;
 }
 
 .fundo{
