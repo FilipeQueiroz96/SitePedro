@@ -11,6 +11,9 @@
 html{
     scroll-behavior: smooth;
 }
+.whatsapp-mobile{
+    display: none;
+}
 header {
     background-image: url(../fundomarmore2.jpg);
     background-size: cover;
@@ -548,7 +551,36 @@ form{
     .gmaps>h3{
         padding: 10px;
     }
+    
+    
+    
+    .whatsapp{
+        display: none;
+    }
+    .whatsapp-mobile{
+        display: flex;
+        justify-content: right;
+        margin: 10px;
+        align-items: center;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        transition-duration: 0.2s;
+    }
+    .linkwhatsapp-mobile{
+        background-color: #25D366;
+        color: white;
+        text-decoration: none;
+        padding: 7px;
+        border-radius: 50%;
+    }
+    
+    .wappicon-mobile{
+        z-index: 99999;
+        padding-top: 2px;
+        padding-left: 2px;
 
+    }
 
 
 }
