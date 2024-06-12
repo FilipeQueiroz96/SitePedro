@@ -140,20 +140,21 @@ margin-right: 7px;
 
 
 .menu-mobile{
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgb(43, 42, 42);
     justify-content: right;
     position: fixed;
     top: 42px;
     right: 0px;
     z-index: 999;
-    width: 60%;
-    height:50%;
-    display: none;
+    width: 0%;
+    padding-bottom: 20px;
+    transition: .2s;
 }
 .x{
     color: white;
     padding: 5px;
     display: none;
+    cursor: pointer;
 }
 .menu-mobile>ul{
     list-style-type: none;
@@ -173,6 +174,10 @@ margin-right: 7px;
 }
 .botao-menu{
     display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right:15px;
 }
 
 
@@ -544,9 +549,27 @@ iframe{
 .menu>ul{
     display: none;
 }
-.menu-mobile{
-    display: none;
+.x{
+    display: flex;
 }
+
+
+
+
+
+.menu-mobile{
+    
+}
+.botao-menu{
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 .fundo{
     background-position: top;
