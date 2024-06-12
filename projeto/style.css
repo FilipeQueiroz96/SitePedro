@@ -529,10 +529,11 @@ iframe{
         color: white;
         display: flex;
         background-color: rgba(0, 0, 0, 0.911);
-        padding: 5px;
+        padding: 5px 0px 5px 0px;
         justify-content: center;
         font-family: "Barlow", sans-serif;
-        font-size: 15px;
+        font-size: 14px;
+        margin: 0px;
     }
 
 .email{
