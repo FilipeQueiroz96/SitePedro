@@ -143,12 +143,12 @@ margin-right: 7px;
     background-color: rgb(43, 42, 42);
     justify-content: right;
     position: fixed;
-    top: 42px;
+    top: 32px;
     right: 0px;
     z-index: 999;
     width: 0%;
     padding-bottom: 20px;
-    transition: .2s;
+    transition: .4s;
 }
 .x{
     color: white;
