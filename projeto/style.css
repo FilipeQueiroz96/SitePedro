@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0px;
@@ -138,7 +139,6 @@ margin-right: 7px;
     transform: scale(1.08);
 }
 
-
 .menu-mobile{
     background-color: rgb(43, 42, 42);
     justify-content: right;
@@ -176,11 +176,9 @@ margin-right: 7px;
     display: none;
     cursor: pointer;
     position: absolute;
-    top: 40px;
-    right:15px;
+    top: 28px;
+    right:10px;
 }
-
-
 
 
 
@@ -194,16 +192,15 @@ margin-right: 7px;
     padding-bottom: 40px;
 }
 
-
-
 .sobre{
     text-align: center;
 }
 .titulo{
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     padding-top: 50px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .paragrafo{
@@ -213,7 +210,6 @@ margin-right: 7px;
    text-align: center;
    padding-bottom: 90px;
    margin: auto;
-   
 }
 
 
@@ -224,8 +220,8 @@ margin-right: 7px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
+
 .secao-areas>h2{
     padding-top: 50px;
     text-align: center;
@@ -251,6 +247,7 @@ margin-right: 7px;
     max-width: 1200px;
     margin: auto;
     gap: 50px;
+    font-family: "Roboto", sans-serif;
 }
 
 .areas>div>li{
@@ -271,17 +268,17 @@ margin-right: 7px;
 }
 .empresarial{
     width: 270px;
-    height: 450px;
+    height: 380px;
 }
 
 .consumidor{
     width: 270px;
-    height: 450px;
+    height: 380px;
 }
 
 .previdenciario{
     width: 270px;
-    height: 450px;
+    height: 380px;
 }
 
 .areas-baixo{
@@ -308,12 +305,12 @@ margin-right: 7px;
 
 .civel{
     width: 270px;
-    height: 450px;
+    height: 380px;
 }
 
 .familia{
     width: 270px;
-    height: 450px;
+    height: 380px;
 }
 
 
@@ -372,8 +369,11 @@ margin-right: 7px;
     display: flex;
     justify-content: center; 
     padding-bottom: 100px;
-    gap: 35px;
+    gap: 40px;
     padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
 }
 
 .lista-equipe-cima>div, .lista-equipe-baixo>div{
@@ -383,6 +383,7 @@ margin-right: 7px;
     align-items: center;
     gap: 10px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .lista-equipe-cima>div>img, .lista-equipe-baixo>div>img{
@@ -394,12 +395,6 @@ span{
 }
 
 .lista-equipe-cima>div>li>p{
-    border-top: 1px solid black;
-    margin-top: 5px;
-    padding-top: 10px;
-}
-
-.lista-equipe-baixo>div>li>p{
     border-top: 1px solid black;
     margin-top: 5px;
     padding-top: 10px;
@@ -421,7 +416,7 @@ footer>h2{
 }
 
 .faleconosco{
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -529,7 +524,7 @@ iframe{
         color: white;
         display: flex;
         background-color: rgba(0, 0, 0, 0.911);
-        padding: 5px 0px 5px 0px;
+        padding: 2px 0px 2px 0px;
         justify-content: center;
         font-family: "Barlow", sans-serif;
         font-size: 14px;
@@ -564,6 +559,7 @@ iframe{
 .botao-menu{
     display: flex;
     cursor: pointer;
+    position: fixed;
 }
 
 
